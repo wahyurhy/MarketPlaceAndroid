@@ -18,6 +18,12 @@
         tools:layout="@layout/fragment_dashboard" />
 
     <fragment
+        android:id="@+id/navigation_cart"
+        android:name="com.wahyurhy.marketplace.ui.cart.CartFragment"
+        android:label="@string/title_cart"
+        tools:layout="@layout/fragment_cart" />
+
+    <fragment
         android:id="@+id/navigation_notifications"
         android:name="com.wahyurhy.marketplace.ui.notifications.NotificationsFragment"
         android:label="@string/title_notifications"
